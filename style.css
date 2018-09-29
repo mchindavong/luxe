@@ -5,14 +5,23 @@ body {
 .nav-link{
     color: #000000
 }
+
+.header{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 .parallax1 { 
-    /* The image used */
     background-image: url("images/lavender.jpg");
-
-    /* Set a specific height */
     height: 650px; 
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,13 +29,8 @@ body {
 }
 
 .parallax2 { 
-    /* The image used */
     background-image: url("images/banner.jpg");
-
-    /* Set a specific height */
     height: 650px; 
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
