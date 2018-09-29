@@ -2,6 +2,9 @@ body {
     position: relative;
   }
 
+.nav-link{
+    color: #000000
+}
 .parallax1 { 
     /* The image used */
     background-image: url("images/lavender.jpg");
