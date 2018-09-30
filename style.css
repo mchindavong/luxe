@@ -51,7 +51,7 @@ body {
     padding: 50px;
 }
 
-#section1 {
+#banner {
     margin: auto;
     padding-top:50px;
     height: 1000px;
@@ -59,7 +59,15 @@ body {
     background: transparent;
 }
 
-#section2 {
+#about {
+    margin: auto;
+    padding-top:100px;
+    height:500px;
+    color: #fff; 
+    background-color: #00bcd4;
+}
+
+#services {
     margin: auto;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -67,7 +75,7 @@ body {
     background-color: #673ab7;
 }
 
-#section3 {
+#testimonials {
     margin: auto;
     padding: auto;
     color: #fff; 
