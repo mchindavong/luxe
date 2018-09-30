@@ -1,27 +1,27 @@
 body {
     position: relative;
-  }
-
-.nav-link{
-    color: #000000
 }
 
-.header{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-right: auto;
-    margin-left: auto;
+.nav-item {
+    text-align: right;
 }
-.container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+
+.header {
+    margin: auto;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 250px;
+
+
 }
+
+
+.card-body {
+    background-color: #009688;
+}
+
 .parallax1 { 
-    background-image: url("images/lavender.jpg");
-    height: 650px; 
+    background-image: url("images/banner.jpg");
+    height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,19 +29,76 @@ body {
 }
 
 .parallax2 { 
-    background-image: url("images/banner.jpg");
-    height: 650px; 
+    background-image: url("images/landing.jpg");
+    height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+.div1 {
+    margin: auto;
+    max-width: 75%;
+    background-color: #dfca6c;
+    padding: 50px;
+}
+
+.div2 {
+    margin: auto;
+    width: 100%;
+    background-color: #ca56c4;
+    padding: 50px;
+}
+
+#section1 {
+    margin: auto;
+    padding-top:50px;
+    height: 1000px;
+    color: #fff;
+    background: transparent;
+}
+
+#section2 {
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #fff; 
+    background-color: #673ab7;
+}
+
+#section3 {
+    margin: auto;
+    padding: auto;
+    color: #fff; 
+}
+
+#section41 {
+    margin: auto;
+    padding-top:100px;
+    height:500px;
+    color: #fff; 
+    background-color: #00bcd4;
+}
+
+#section42 {
+    margin: auto;
+    padding-top:100px;
+    height:500px;
+    color: #fff; 
+    background-color: #009688;
+}
+
+footer {
+    padding: 15px;
+    background-color: #da6a36
+}
+
+.back-to-top {
+    cursor: pointer;
+    color: #ca56c4;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
 }
