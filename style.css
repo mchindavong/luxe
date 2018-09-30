@@ -1,19 +1,59 @@
-body {
-    position: relative;
-}
-
 .nav-item {
     text-align: right;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
 }
 
 .header {
     margin: auto;
-    font-family: 'Cinzel Decorative', cursive;
-    font-size: 250px;
-
-
+    padding-top:50px;
+    height: 1000px;
 }
 
+.container {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.container span {
+    font-family: 'Cinzel Decorative', cursive;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: block;
+}
+
+.text1 {
+    font-size: 200px;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    position: relative;
+    animation: text 3s 1;
+}
+
+.text2 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    background: #314f8fab
+    
+}
+
+@keyframes text {
+    0% {
+        color: rgba(245, 245, 245, 0);
+        margin-bottom: -40px;
+    }
+    30% {
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+    85% {
+        margin-bottom: -40px;
+    }
+}
 
 .card-body {
     background-color: #009688;
@@ -51,14 +91,6 @@ body {
     padding: 50px;
 }
 
-#banner {
-    margin: auto;
-    padding-top:50px;
-    height: 1000px;
-    color: #fff;
-    background: transparent;
-}
-
 #about {
     margin: auto;
     padding-top:100px;
@@ -69,16 +101,16 @@ body {
 
 #services {
     margin: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: auto;
     color: #fff; 
-    background-color: #673ab7;
 }
 
 #testimonials {
     margin: auto;
-    padding: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
     color: #fff; 
+    background-color: #673ab7;
 }
 
 #section41 {
