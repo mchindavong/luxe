@@ -8,7 +8,7 @@ $(document).ready(function(){
                $('#back-to-top').fadeOut();
            }
        });
-       // scroll body to 0px on click
+
        $('#back-to-top').click(function () {
            $('#back-to-top').tooltip('hide');
            $('body,html').animate({

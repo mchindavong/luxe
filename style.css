@@ -36,9 +36,7 @@
 
 .text2 {
     font-size: 30px;
-    letter-spacing: 2px;
-    background: #314f8fab
-    
+    letter-spacing: 2px; 
 }
 
 @keyframes text {
@@ -136,7 +134,7 @@ footer {
 
 .back-to-top {
     cursor: pointer;
-    color: #ca56c4;
+    color: #ffffff;
     position: fixed;
     bottom: 20px;
     right: 20px;
