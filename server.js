@@ -1,4 +1,6 @@
-$('body').scrollspy({target: ".navbar"})
+$(document).ready(function(){
+    $('body').scrollspy({target: ".navbar", offset: 50});   
+});
 
 $(document).ready(function(){
     $(window).scroll(function () {
@@ -16,7 +18,5 @@ $(document).ready(function(){
            }, 800);
            return false;
        });
-       
-       $('#back-to-top').tooltip('show');
 
 });
