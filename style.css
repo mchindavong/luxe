@@ -16,12 +16,6 @@ body, .navbar-custom,
     color: rgba(255,255,255,.5); 
 }
 
-/* change the color of active or hovered links */
-/* .navbar-custom .nav-item.active .nav-link,
-.navbar-custom .nav-item:hover .nav-link {
-    color: #ffffff;
-} */
-
 .dropdown:hover>.dropdown-menu {
     display: block;
     border: none;
@@ -78,11 +72,26 @@ body, .navbar-custom,
 
 h1.highlight {
     font-family: 'Cinzel Decorative', cursive;
+    color: #455711;
 }
 
 h5.card-title {
     letter-spacing: 5px;
 }
+
+.media-container {
+    margin: auto;
+    padding: 25px;
+}
+
+.media-icon {
+    color: #EFC364;
+}
+
+.media-body {
+    padding-left: 20px;
+}
+
 .card-body {
     background-color: #009688;
 }
@@ -115,14 +124,13 @@ h5.card-title {
 .div2 {
     margin: auto;
     width: 100%;
-    background-color: #ca56c4;
+    background-color: #EFC364;
     padding: 50px;
 }
 
-#about {
+.about {
     margin: auto;
-    padding-top:100px;
-    height:500px;
+    padding: 50px;
     color: #fff; 
     background-color: #7CADD8;
 }
