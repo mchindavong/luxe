@@ -146,15 +146,14 @@ h5.card-title {
 
 .about-section {
     margin: auto;
-    background-color: #ffffff;
-    padding: 50px;
+    padding: 25px;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.527);
 }
 
 #services {
     margin: auto;
     height: 100vh;
-    position: relative;
     color: #fff; 
 }
 
