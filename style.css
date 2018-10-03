@@ -102,7 +102,7 @@ h5.card-title {
 }
 
 .card-body {
-    background-color: #009688;
+    background-color: #EFC364;
 }
 
 .parallax1 { 
@@ -123,17 +123,26 @@ h5.card-title {
     background-size: cover;
 }
 
+.parallax3 { 
+    background-image: url("images/parallax3.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .div1 {
     margin: auto;
     max-width: 75%;
     background-color: rgba(255,255,255,.5);
-    padding: 50px;
+    padding: 75px;
 }
 
 .div2 {
     margin: auto;
-    width: 100%;
-    background-color: #EFC364;
+    max-width: 75%;
+    background-color: #87A390;
     padding: 50px;
 }
 
@@ -142,13 +151,6 @@ h5.card-title {
     padding: 50px;
     color: #fff; 
     background-color: #7CADD8;
-}
-
-.about-section {
-    margin: auto;
-    padding: 25px;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.527);
 }
 
 #services {
@@ -167,10 +169,8 @@ h5.card-title {
 
 #section41 {
     margin: auto;
-    padding-top:100px;
-    height:500px;
+    height: 100vh;
     color: #fff; 
-    background-color: #00bcd4;
 }
 
 #section42 {
