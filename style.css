@@ -115,7 +115,7 @@ h5.card-title {
 }
 
 .parallax2 { 
-    background-image: url("images/landing.jpg");
+    background-image: url("images/parallax2.jpg");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -144,9 +144,17 @@ h5.card-title {
     background-color: #7CADD8;
 }
 
+.about-section {
+    margin: auto;
+    background-color: #ffffff;
+    padding: 50px;
+    text-align: center;
+}
+
 #services {
     margin: auto;
-    padding: auto;
+    height: 100vh;
+    position: relative;
     color: #fff; 
 }
 
