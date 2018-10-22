@@ -1,13 +1,11 @@
-body, .navbar-custom, 
-.navbar-custom .dropdown-menu{
+body, .navbar-custom {
     background-color: #7CADD8;
     position: relative;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
 }
 
-.navbar-custom,
-.navbar-custom .dropdown-menu {
+.navbar-custom {
     letter-spacing: 2px;
 }
 
@@ -167,18 +165,10 @@ h5.card-title {
     background-color: #7CADD8;
 }
 
-#section41 {
+#contact {
     margin: auto;
     height: 100vh;
     color: #fff; 
-}
-
-#section42 {
-    margin: auto;
-    padding-top:100px;
-    height:500px;
-    color: #fff; 
-    background-color: #009688;
 }
 
 footer {
