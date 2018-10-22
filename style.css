@@ -166,6 +166,15 @@ h5.card-title {
     color: #fff; 
 }
 
+<<<<<<< HEAD
+=======
+.contactform {
+    margin: auto;
+    padding: 50px;
+    background-color: #EFC364;
+}
+
+>>>>>>> master
 footer {
     padding: 10px;
     color: rgba(255,255,255,.5); 
